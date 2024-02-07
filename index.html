@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamento Jooy Style</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6A787D;
+            color: #213138;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #213138;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 1em;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .contact-form {
+            margin-top: 2em;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+    <!-- Adicione essas linhas para incluir o jQuery e o Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+     
+        <h1><font color="#acb1b5">Apartamento à Venda</font></h1>
+     
+    </header>
+
+    <section>
+        <div class="slick-slider">
+            <div><img src="H01.png" alt="Imagem 1"></div>
+            <div><img src="H02.png" alt="Imagem 2"></div>
+            <div><img src="H03.png" alt="Imagem 3"></div>
+            <div><img src="H04.png" alt="Imagem 4"></div>
+            <div><img src="H05.png" alt="Imagem 5"></div>
+	    <div><img src="H06.png" alt="Imagem 6"></div>
+	    <div><img src="H07.png" alt="Imagem 7"></div>
+	    <div><img src="H08.png" alt="Imagem 8"></div>
+	    <div><img src="H09.png" alt="Imagem 9"></div>
+	    <div><img src="H10.png" alt="Imagem 10"></div>
+	    <div><img src="H11.png" alt="Imagem 11"></div>
+	    <div><img src="H12.png" alt="Imagem 12"></div>
+	    <div><img src="H13.png" alt="Imagem 13"></div>
+	    <div><img src="H14.png" alt="Imagem 14"></div>
+	    <div><img src="H15.png" alt="Imagem 15"></div>
+	    <div><img src="H16.png" alt="Imagem 16"></div>
+	    <div><img src="Planta_Jooy.png" alt="Imagem 17"></div>
+            <!-- Adicione mais divs conforme necessário para mais imagens -->
+        </div>
+
+        <h2>Detalhes do Imóvel</h2>
+        <ul>
+	    <li>Posição solar: Nascente</li>
+            <li>Quartos: 2, sendo 1 suíte</li>
+            <li>Banheiros: 2</li>
+            <li>Área: 65 m²</li>
+            <li>Localização: Bairro Mata do Jacinto</li>
+	    <li>Sacada Gourmet com Churrasqueira</li>
+	    <li>Vaga de Garagem: 1</li>
+        </ul>
+
+        <h2>Descrição do Imóvel</h2>
+        <p>
+Apartamento novo, pronto para morar, no 3º andar. Com acabamentos refinados, incluindo piso laminado. Sala espaçosa para dois ambientes, cozinha americana, equipada com uma generosa cuba, aquecimento a gás. Sacada, completa com churrasqueira. Já está com preparação para instalação de ar-condicionado split nos quartos e sala.a.
+O condomínio é completo em lazer, dispõe de piscina para adultos e crianças, academia, espaço gourmet, sala de jogos, brinquedoteca, salão de festas, quadra de esportes e espaço Zen. Portaria 24h, cada torre possui dois elevadores.
+Na entrada da Mata do Jacinto, próximo ao Parque Soter, Pão de Açúcar, escolas.
+Aceita financiamento.
+	</p>
+
+
+
+<!-- Botão WhatsApp-->
+<center>
+<a href="http://wa.me/5567992930203" target="_blank">
+    <img src="WhatsApp.png" alt="Botão do WhatsApp" width="200">
+</a>
+</center>
+
+        <div class="contact-form">
+            <h2>Entre em Contato</h2>
+            <form action="https://smartforms.dev/submit/6595d8625df1517d48d8bfd4" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" id="telefone" name="telefone" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+<center>
+
+<img src="LOGOROMERO.png">
+
+</center>
+        </div>
+    </section>
+
+    <!-- Script para inicializar o Slick Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('.slick-slider').slick({
+                autoplay: true,
+                dots: true,
+                arrows: true
+                // Você pode ajustar outras opções conforme necessário
+            });
+        });
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
